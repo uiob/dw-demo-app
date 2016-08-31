@@ -9,13 +9,10 @@ output-*
 *gz
 *.iso
 *.rendered
-license*.xml
-testing-box
 .vagrant
 .idea
 *.iml
 tmp
 target
-plugins
 host-m2-repo
-dependency-reduced-pom.xml
+.m2

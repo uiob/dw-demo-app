@@ -2,12 +2,10 @@
 .gitignore
 .idea
 src
-docker
-plugins
-sshkeys
 docker-compose.yml
 Jenkinsfile
 pom.xml
 *.md
 tmp
 host-m2-repo
+.m2
