@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre-alpine
+FROM openjdk:8-jre-alpine
 MAINTAINER Damien DUPORTAL <dduportal@cloudbees.com>
 
 COPY ./target/demoapp.jar /app/app.jar

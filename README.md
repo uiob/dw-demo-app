@@ -99,8 +99,12 @@ docker port ${CID} 8080
 ```
 Example: 0.0.0.0:**37567**
 
-
 * Browse to the application homepage, using the fetched port: http://{DOCKER SERVICE IP}:**37567**
   - {DOCKER SERVICE IP} is the IP address of your Docker service:
     * `localhost` on Docker4Mac or Docker4Windows
     * The result of ```boot2docker ip``` using Docker toolbox
+
+* Stop and clean the application:
+```bash
+docker stop ${CID} && docker rm -v ${CID}
+```
