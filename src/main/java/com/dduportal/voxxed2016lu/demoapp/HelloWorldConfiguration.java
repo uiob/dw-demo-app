@@ -1,4 +1,4 @@
-package com.dduportal.voxxed2016lu.demoapp;
+package com.dduportal.jenkins.demoapp;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;

@@ -1,6 +1,6 @@
-package com.dduportal.voxxed2016lu.demoapp.resources;
+package com.dduportal.jenkins.demoapp.resources;
 
-import com.dduportal.voxxed2016lu.demoapp.api.Saying;
+import com.dduportal.jenkins.demoapp.api.Saying;
 import com.google.common.base.Optional;
 import com.codahale.metrics.annotation.Timed;
 

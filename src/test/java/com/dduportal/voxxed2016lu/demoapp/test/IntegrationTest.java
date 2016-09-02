@@ -1,4 +1,4 @@
-package com.dduportal.voxxed2016lu.demoapp.test;
+package com.dduportal.jenkins.demoapp.test;
 
 public interface IntegrationTest {
 

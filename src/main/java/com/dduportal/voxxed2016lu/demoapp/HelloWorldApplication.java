@@ -1,7 +1,7 @@
-package com.dduportal.voxxed2016lu.demoapp;
+package com.dduportal.jenkins.demoapp;
 
-import com.dduportal.voxxed2016lu.demoapp.health.TemplateHealthCheck;
-import com.dduportal.voxxed2016lu.demoapp.resources.HelloWorldResource;
+import com.dduportal.jenkins.demoapp.health.TemplateHealthCheck;
+import com.dduportal.jenkins.demoapp.resources.HelloWorldResource;
 import io.dropwizard.Application;
 import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.setup.Bootstrap;

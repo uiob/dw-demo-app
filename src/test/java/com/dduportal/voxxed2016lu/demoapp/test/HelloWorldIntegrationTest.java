@@ -1,8 +1,8 @@
-package com.dduportal.voxxed2016lu.demoapp.test;
+package com.dduportal.jenkins.demoapp.test;
 
-import com.dduportal.voxxed2016lu.demoapp.HelloWorldApplication;
-import com.dduportal.voxxed2016lu.demoapp.HelloWorldConfiguration;
-import com.dduportal.voxxed2016lu.demoapp.api.Saying;
+import com.dduportal.jenkins.demoapp.HelloWorldApplication;
+import com.dduportal.jenkins.demoapp.HelloWorldConfiguration;
+import com.dduportal.jenkins.demoapp.api.Saying;
 import io.dropwizard.testing.ResourceHelpers;
 import io.dropwizard.testing.junit.DropwizardAppRule;
 import org.glassfish.jersey.client.JerseyClientBuilder;

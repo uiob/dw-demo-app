@@ -1,4 +1,4 @@
-package com.dduportal.voxxed2016lu.demoapp.health;
+package com.dduportal.jenkins.demoapp.health;
 
 import com.codahale.metrics.health.HealthCheck;
 
@@ -18,4 +18,3 @@ public class TemplateHealthCheck extends HealthCheck {
         return Result.healthy();
     }
 }
-

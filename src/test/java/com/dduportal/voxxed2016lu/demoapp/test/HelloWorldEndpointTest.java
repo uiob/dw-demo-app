@@ -1,7 +1,7 @@
-package com.dduportal.voxxed2016lu.demoapp.test;
+package com.dduportal.jenkins.demoapp.test;
 
-import com.dduportal.voxxed2016lu.demoapp.api.Saying;
-import com.dduportal.voxxed2016lu.demoapp.resources.HelloWorldResource;
+import com.dduportal.jenkins.demoapp.api.Saying;
+import com.dduportal.jenkins.demoapp.resources.HelloWorldResource;
 import com.fasterxml.jackson.databind.ObjectReader;
 import io.dropwizard.testing.junit.ResourceTestRule;
 import org.junit.Rule;

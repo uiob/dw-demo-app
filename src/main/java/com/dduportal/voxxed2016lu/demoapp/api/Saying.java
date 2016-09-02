@@ -1,4 +1,4 @@
-package com.dduportal.voxxed2016lu.demoapp.api;
+package com.dduportal.jenkins.demoapp.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.Length;
