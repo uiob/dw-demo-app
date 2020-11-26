@@ -16,3 +16,8 @@ tmp
 target
 host-m2-repo
 .m2
+# Eclipse project files
+.classpath
+.settings
+.project
+.factorypath
