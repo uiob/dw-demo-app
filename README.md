@@ -1,3 +1,5 @@
+![example workflow](https://github.com/uiob/dw-demo-app/actions/workflows/maven.yml/badge.svg)
+
 # DropWizard Demo Application
 
 Welcome to the DropWizard Demo Application !
