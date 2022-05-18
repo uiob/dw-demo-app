@@ -51,6 +51,6 @@ jobs:
         cache: 'maven'
 
     - name: Publish
-      run: mvn -B --no-transfer-progress deploy -DskipTests --projects dw-demo-app
+      run: mvn -B --no-transfer-progress deploy -DskipTests --projects demoapp
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
