@@ -29,6 +29,8 @@ jobs:
         distribution: 'temurin'
         java-version: 8.0.332+9
         cache: 'maven'
+    - name: jacoco
+      run: mvn clean test jacoco:report coveralls:report 
     - name: Code report
       run:  mvn -B verify -P coverage --no-transfer-progress
     
