@@ -32,7 +32,7 @@ jobs:
     - name: jacoco
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn --service=github clean test jacoco:report coveralls:report 
+      run: mvn clean test jacoco:report coveralls:report 
     - name: Code report
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
