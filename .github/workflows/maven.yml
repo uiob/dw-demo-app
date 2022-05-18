@@ -30,8 +30,12 @@ jobs:
         java-version: 8.0.332+9
         cache: 'maven'
     - name: jacoco
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: mvn clean test jacoco:report coveralls:report 
     - name: Code report
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run:  mvn -B verify -P coverage --no-transfer-progress
     
     - uses: codecov/codecov-action@v1
