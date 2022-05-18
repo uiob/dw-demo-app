@@ -51,6 +51,6 @@ jobs:
         cache: 'maven'
 
     - name: Publish
-      run: mvn -B --no-transfer-progress deploy -DskipTests --projects cxf-spring-boot-starter
+      run: mvn -B --no-transfer-progress deploy -DskipTests --projects dw-demo-app
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
