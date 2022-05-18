@@ -8,6 +8,15 @@
   <version>1.0.0-SNAPSHOT</version>
 
   <name>Demo DropWizard Application</name>
+  
+  <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///Users/giovanni/Desktop/test/</url>
+       </repository>
+   </distributionManagement>
+
 
   <properties>
     <dropwizard.version>1.0.0</dropwizard.version>
